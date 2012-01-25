@@ -52,6 +52,3 @@
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
 	url = git://github.com/tsaleh/vim-align.git
-[submodule "bundle/Command-T"]
-	path = bundle/Command-T
-	url = git://github.com/wincent/Command-T.git
