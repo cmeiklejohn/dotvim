@@ -98,6 +98,7 @@ map <leader>te :tabedit
 map <leader>tc :tabclose<CR>
 map <leader>tm :tabmove
 map <leader>cd :cd %:p:h<CR>
+map <leader>aa :Align =><CR>
 
 nmap <leader>l :set list!<CR>
 
@@ -130,6 +131,9 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|doc',
   \ 'file': '\.exe$\|\.so$\|\.dat$'
   \ }
+
+" let g:acp_enableAtStartup = 0
+" let g:neocomplcache_enable_at_startup = 0
 
 " set colorcolumn=85 " Color column at 85
 " set ttymouse=xterm2
