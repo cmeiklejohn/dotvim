@@ -56,6 +56,11 @@ set novisualbell
 set t_vb=
 set listchars=tab:▸\ ,eol:¬
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
+" Speed up scrolling with largest viewport size.
+set ttyfast
+set ttyscroll=3
+set lazyredraw
  
 filetype plugin on
 filetype indent on
