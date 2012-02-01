@@ -144,3 +144,11 @@ let g:ctrlp_custom_ignore = {
 " set ttymouse=xterm2
 " let g:ctrlp_use_caching = 0
 " inoremap jj <ESC>
+
+" Folding
+autocmd FileType javascript setlocal foldmethod=marker foldmarker={,}
+autocmd FileType ruby       setlocal foldmethod=indent
+
+" Relative line numbers in insert mode
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
