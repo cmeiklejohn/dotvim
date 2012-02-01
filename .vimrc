@@ -82,6 +82,8 @@ map <leader>e :e! ~/.vimrc<CR>
 
 autocmd! bufwritepost vimrc source ~/.vim_runtime/vimrc
 
+autocmd BufNewFile,BufRead *_spec.rb compiler rspec
+
 map <space> /
 map <c-space> ?
 map <silent> <leader><CR> :noh<CR>
