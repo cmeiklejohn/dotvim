@@ -103,8 +103,9 @@ map <leader>tm :tabmove
 map <leader>cd :cd %:p:h<CR>
 map <leader>aa :Align =><CR>
 map <leader>n :NERDTree<CR>
-
 nmap <leader>l :set list!<CR>
+
+runtime macros/matchit.vim
 
 try
   set switchbuf=usetab
