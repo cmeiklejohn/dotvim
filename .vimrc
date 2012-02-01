@@ -99,6 +99,7 @@ map <leader>tc :tabclose<CR>
 map <leader>tm :tabmove
 map <leader>cd :cd %:p:h<CR>
 map <leader>aa :Align =><CR>
+map <leader>n :NERDTree<CR>
 
 nmap <leader>l :set list!<CR>
 
