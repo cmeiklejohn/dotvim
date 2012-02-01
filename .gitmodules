@@ -67,3 +67,6 @@
 [submodule "bundle/vim-textobj-user"]
 	path = bundle/vim-textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
+[submodule "bundle/vimerl"]
+	path = bundle/vimerl
+	url = git://github.com/oscarh/vimerl.git
