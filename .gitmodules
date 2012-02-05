@@ -73,3 +73,9 @@
 [submodule "bundle/vim-compot"]
 	path = bundle/vim-compot
 	url = git://github.com/aerosol/vim-compot.git
+[submodule "bundle/jellybeans.vim"]
+	path = bundle/jellybeans.vim
+	url = git://github.com/nanotech/jellybeans.vim.git
+[submodule "bundle/Hemisu"]
+	path = bundle/Hemisu
+	url = git://github.com/noahfrederick/Hemisu.git

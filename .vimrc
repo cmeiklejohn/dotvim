@@ -35,10 +35,6 @@ set history=256
 set autoread
 set mouse=a
 set mousehide
-set foldmethod=syntax
-set foldnestmax=10
-set nofoldenable
-set foldlevel=1
 set so=7
 set wildmenu
 set ruler
@@ -57,11 +53,7 @@ set t_vb=
 set listchars=tab:▸\ ,eol:¬
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
-" Speed up scrolling with largest viewport size.
-set ttyfast
-set ttyscroll=3
-set lazyredraw
- 
+
 filetype plugin on
 filetype indent on
 
@@ -146,9 +138,19 @@ let g:ctrlp_custom_ignore = {
 " inoremap jj <ESC>
 
 " Folding
+set foldmethod=syntax
+set foldnestmax=10
+set nofoldenable
+set foldlevel=1
+
 autocmd FileType javascript setlocal foldmethod=marker foldmarker={,}
 autocmd FileType ruby       setlocal foldmethod=indent
 
+" Speed up scrolling with largest viewport size.
+set ttyfast
+set ttyscroll=3
+set lazyredraw
+ 
 " Relative line numbers in insert mode
-autocmd InsertEnter * :set number
-autocmd InsertLeave * :set relativenumber
+" autocmd InsertEnter * :set number
+" autocmd InsertLeave * :set relativenumber
