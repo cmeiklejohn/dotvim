@@ -64,6 +64,7 @@ let g:rails_default_file='config/database.yml'
 augroup myfiletypes
 autocmd!
 autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
+autocmd FileType erlang set ai sw=4 sts=4 et
 augroup END
 
 let mapleader = ","
