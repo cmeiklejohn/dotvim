@@ -127,7 +127,7 @@ let g:slime_target = 'tmux'
 
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|doc',
-  \ 'file': '\.exe$\|\.so$\|\.dat$'
+  \ 'file': '\.exe$\|\.so$\|\.dat$\|\.beam$'
   \ }
 
 " let g:acp_enableAtStartup = 0
