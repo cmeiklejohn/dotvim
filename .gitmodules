@@ -79,3 +79,6 @@
 [submodule "bundle/Hemisu"]
 	path = bundle/Hemisu
 	url = git://github.com/noahfrederick/Hemisu.git
+[submodule "bundle/conque-term"]
+	path = bundle/conque-term
+	url = git://github.com/rosenfeld/conque-term.git
