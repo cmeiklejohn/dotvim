@@ -72,6 +72,7 @@ let g:mapleader = ","
 
 nmap <leader>w :w!<CR>
 map <leader>e :e! ~/.vimrc<CR>
+map <leader>m :make %<CR>
 
 autocmd! bufwritepost vimrc source ~/.vim_runtime/vimrc
 
@@ -106,8 +107,8 @@ try
 catch
 endtry
 
-set grepprg=ack-grep
-let g:ackprg="ack-grep -H --nocolor --nogroup --column --ignore-dir=doc --type-set mustache=.mustache --type-add js=.jst --type-add js=.handlebars"
+set grepprg=ack
+let g:ackprg="ack -H --nocolor --nogroup --column --ignore-dir=doc --type-set mustache=.mustache --type-add js=.jst --type-add js=.handlebars"
 
 set background=dark
 let g:solarized_termcolors=16
@@ -155,3 +156,5 @@ set lazyredraw
 " Relative line numbers in insert mode
 " autocmd InsertEnter * :set number
 " autocmd InsertLeave * :set relativenumber
+
+set gfn=Monaco:h12
