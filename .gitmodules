@@ -67,9 +67,6 @@
 [submodule "bundle/vim-textobj-user"]
 	path = bundle/vim-textobj-user
 	url = git://github.com/kana/vim-textobj-user.git
-[submodule "bundle/vimerl"]
-	path = bundle/vimerl
-	url = git://github.com/oscarh/vimerl.git
 [submodule "bundle/vim-compot"]
 	path = bundle/vim-compot
 	url = git://github.com/aerosol/vim-compot.git
@@ -85,3 +82,9 @@
 [submodule "bundle/vim-erlang-skeletons"]
 	path = bundle/vim-erlang-skeletons
 	url = git://github.com/aerosol/vim-erlang-skeletons.git
+[submodule "bundle/vimerl"]
+	path = bundle/vimerl
+	url = https://github.com/jimenezrick/vimerl.git
+[submodule "bundle/vim-smartinput"]
+	path = bundle/vim-smartinput
+	url = git://github.com/kana/vim-smartinput.git
