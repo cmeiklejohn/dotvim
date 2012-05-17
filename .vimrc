@@ -123,11 +123,12 @@ nnoremap <leader>a :Ack<SPACE>
 nnoremap <leader>ft Vatzf
 nnoremap <leader>S ?{<CR>jV/^\s*\}?$<CR>k:sort<CR>:noh<CR>
 nnoremap <leader>v V`]
+nnoremap <leader>j :JSHint %<CR>
 
 let g:slime_target = 'tmux'
 
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|doc',
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc$\|doc\|coverage',
   \ 'file': '\.exe$\|\.so$\|\.dat$\|\.beam$'
   \ }
 
