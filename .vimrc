@@ -12,7 +12,7 @@ set timeoutlen=250
 set expandtab
 set ts=2
 set bs=2
-set shiftwidth=2 
+set shiftwidth=2
 set incsearch
 set cinoptions=:0,p0,t0
 set cinwords=if,else,while,do,for,switch,case
@@ -159,3 +159,14 @@ set lazyredraw
 " autocmd InsertLeave * :set relativenumber
 
 set gfn=Monaco:h12
+
+" Highlight end of line whitespace.
+"
+highlight ExtraWhitespace ctermbg=red guibg=red
+au ColorScheme * highlight ExtraWhitespace guibg=red
+au BufEnter * match ExtraWhitespace /\s\+$/
+au InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+au InsertLeave * match ExtraWhiteSpace /\s\+$/
+
+set expandtab
+set list!
