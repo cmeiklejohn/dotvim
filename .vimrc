@@ -170,3 +170,7 @@ au InsertLeave * match ExtraWhiteSpace /\s\+$/
 
 set expandtab
 set list!
+let g:Powerline_symbols = 'fancy'
+
+au BufNewFile,BufRead *.clj,*cljs set filetype=clojure
+au BufNewFile,BufRead rebar.config,app.config set filetype=erlang
