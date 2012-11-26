@@ -135,7 +135,7 @@ let g:ctrlp_custom_ignore = {
 " let g:acp_enableAtStartup = 0
 " let g:neocomplcache_enable_at_startup = 0
 
-" set colorcolumn=85 " Color column at 85
+set colorcolumn=72
 " set ttymouse=xterm2
 " let g:ctrlp_use_caching = 0
 " inoremap jj <ESC>
@@ -174,3 +174,7 @@ let g:Powerline_symbols = 'fancy'
 
 au BufNewFile,BufRead *.clj,*cljs set filetype=clojure
 au BufNewFile,BufRead rebar.config,app.config set filetype=erlang
+
+" VimClojure
+let g:vimclojure#HighlightBuiltins = 1
+let g:vimclojure#ParenRainbow = 1
