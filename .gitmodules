@@ -100,3 +100,39 @@
 [submodule "bundle/paredit.vim"]
 	path = bundle/paredit.vim
 	url = git://github.com/vim-scripts/paredit.vim.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule "bundle/vim-classpath"]
+	path = bundle/vim-classpath
+	url = git://github.com/tpope/vim-classpath.git
+[submodule "bundle/vim-clojure-static"]
+	path = bundle/vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "bundle/funcoo.vim"]
+	path = bundle/funcoo.vim
+	url = https://github.com/rizzatti/funcoo.vim.git
+[submodule "bundle/dash.vim"]
+	path = bundle/dash.vim
+	url = https://github.com/rizzatti/dash.vim.git
+[submodule "bundle/idris-vim"]
+	path = bundle/idris-vim
+	url = https://github.com/idris-hackers/idris-vim.git
+[submodule "bundle/vimshell.vim"]
+	path = bundle/vimshell.vim
+	url = git@github.com:Shougo/vimshell.vim.git
+[submodule "vimproc.vim"]
+	path = vimproc.vim
+	url = git@github.com:Shougo/vimproc.vim.git
+[submodule "bundle/vimproc.vim"]
+	path = bundle/vimproc.vim
+	url = git@github.com:Shougo/vimproc.vim.git
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = git://github.com/wting/rust.vim.git
+[submodule "bundle/vim-monochrome"]
+	path = bundle/vim-monochrome
+	url = https://github.com/fxn/vim-monochrome.git

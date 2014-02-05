@@ -107,8 +107,8 @@ try
 catch
 endtry
 
-set grepprg=ack
-let g:ackprg="ack -H --nocolor --nogroup --column --ignore-dir=doc --type-set mustache=.mustache --type-add js=.jst --type-add js=.handlebars"
+" set grepprg=ack
+" let g:ackprg="ack -H --nocolor --nogroup --column --ignore-dir=doc --type-set mustache=.mustache --type-add js=.jst --type-add js=.handlebars"
 
 set background=dark
 let g:solarized_termcolors=16
@@ -178,3 +178,12 @@ au BufNewFile,BufRead rebar.config,app.config set filetype=erlang
 " VimClojure
 let g:vimclojure#HighlightBuiltins = 1
 let g:vimclojure#ParenRainbow = 1
+
+" Ag.
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
+" No undofiles.
+set noundofile
+
+" monochrome
+" colorscheme monochrome
